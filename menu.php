@@ -2,7 +2,7 @@
 /*
 * Código de exemplo da utilização de PDO como persistencia
 * Página reponsável pelo menu da aplicacao
-* @author Wesley R. Bezerra <wesley.bezerra@ifc.edu.br>
+* @author Fernando Pereira Giovanella <fernando.giovanella@estudantes.ifc.edu.br>
 * @version 0.1
 *
 */

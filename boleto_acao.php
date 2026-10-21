@@ -4,7 +4,7 @@
 /*
  * Código de exemplo da utilização de PDO como persistencia
  * Controlador responsável pela manutenção do cadastro da entidade boleto
- * @author Wesley R. Bezerra <wesley.bezerra@ifc.edu.br>
+ * @author Fernando Pereira Giovanella <fernando.giovanella@estudantes.ifc.edu.br>
  * @version 0.1
  */
 
