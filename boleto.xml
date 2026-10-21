@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root>
+    <boleto>
+        <id>20240430160656</id>
+        <data_vencimento>2026-11-10</data_vencimento>
+        <data_emissao>2026-10-21</data_emissao>
+        <data_pagamento></data_pagamento>
+        <valor>150.50</valor>
+        <desconto>0.00</desconto>
+        <juros>2.00</juros>
+        <multa>5.00</multa>
+        <mora>1.00</mora>
+        <valor_pago>0.00</valor_pago>
+    </boleto>
+</root>

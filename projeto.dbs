@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Sqlite" id="Project-1c64" database="Sqlite" >
+    <schema name="Default" >
+        <table name="boleto" >
+            <comment><![CDATA[tabela de boletos]]></comment>
+            <column name="id" type="INTEGER" jt="4" mandatory="y" />
+            <column name="data_vencimento" type="DATE" jt="91" />
+            <column name="data_emissao" type="DATE" jt="91" />
+            <column name="data_pagamento" type="DATE" jt="91" />
+            <column name="valor" type="FLOAT" jt="7" />
+            <column name="desconto" type="FLOAT" jt="7" />
+            <column name="juros" type="FLOAT" jt="7" />
+            <column name="multa" type="FLOAT" jt="7" />
+            <column name="mora" type="FLOAT" jt="7" />
+            <column name="valor_pago" type="FLOAT" jt="7" />
+            <index name="pk_boleto" unique="PRIMARY_KEY" >
+                <column name="id" />
+            </index>
+        </table>
+    </schema>
+    <layout name="Main Layout" id="Layout-1579" show_relation="columns" >
+        <entity schema="Default" name="boleto" color="C1D8EE" x="51" y="51" />
+        <script name="SQL_Editor" id="Editor-138c" language="SQL" >
+            <string><![CDATA[select * from boleto]]></string>
+        </script>
+    </layout>
+</project>
