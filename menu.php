@@ -13,8 +13,8 @@
         <li>Exemplo de cadastro de boletos</li>
     </ul>
     <ul>
-        <li><a href="boleto_cad.php" role="button">Cad.Pessoa</a></li>
-        <li><a href="index.php" role="button">List.Pessoa</a></li>
+        <li><a href="boleto_cad.php" role="button">Cad.Boleto</a></li>
+        <li><a href="index.php" role="button">List.Boleto</a></li>
     </ul>
 </nav>
 <hr></hr>
